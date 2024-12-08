@@ -10,8 +10,8 @@ from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error, c
 warnings.filterwarnings('ignore')
 
 # Load the datasets
-imdb_top_1000 = pd.read_csv('C:/Users/gudde/OneDrive/Desktop/ml_glob/datasets/imdb_top_1000.csv')
-movies_data = pd.read_csv('C:/Users/gudde/OneDrive/Desktop/ml_glob/datasets/movies_data.csv')
+imdb_top_1000 = pd.read_csv('C:path/to/the/file/imdb_top_1000.csv')
+movies_data = pd.read_csv('C:path/to/the/file/movies_data.csv')
 
 # Display the first few rows of each dataset
 print(imdb_top_1000.head(), movies_data.head())
